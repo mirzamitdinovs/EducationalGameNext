@@ -3,6 +3,7 @@ import Aside from '../components/Aside';
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
 import { useEffect } from 'react';
+import { useRouter } from 'next/router';
 // import $ from 'jquery';
 function MyApp({ Component, pageProps }) {
 	useEffect(() => {
@@ -469,15 +470,17 @@ function MyApp({ Component, pageProps }) {
 			});
 		})(jQuery);
 	});
+
+	const router = useRouter();
 	return (
 		<div>
-			<Navbar />
+			{router.asPath !== '/sites' && <Navbar />}
 			<Aside />
 			<div className='body-overlay' />
 			<main>
 				<Component {...pageProps} />
 			</main>
-			<Footer />
+			{router.asPath !== '/sites' && <Footer />}
 			<script src='assets/js/vendor/modernizr-3.5.0.min.js'></script>
 			<script src='assets/js/vendor/jquery-2.2.4.min.js'></script>
 			<script src='assets/js/popper.min.js'></script>

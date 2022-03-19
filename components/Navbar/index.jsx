@@ -182,6 +182,17 @@ const Navbar = () => {
 													</a>
 												</Link>
 											</li>
+											<li className='nav-item'>
+												<Link href='/sites'>
+													<a
+														className='nav-link'
+														role='button'
+														aria-expanded='false'
+													>
+														Games
+													</a>
+												</Link>
+											</li>
 										</ul>
 									</div>
 								</div>
