@@ -4,7 +4,7 @@ const ExternalPages = () => {
 			<iframe
 				src='https://www.education.com/games/math/'
 				width='100%'
-				style={{ height: '100vh' }}
+				style={{ height: '100vh', marginTop: '-100px' }}
 			></iframe>
 		</div>
 	);
