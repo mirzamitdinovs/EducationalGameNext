@@ -1,5 +1,8 @@
 import Breadcrumb from 'components/Breadcrumb';
+import InfoCard from 'components/cards/InfoCard';
+import LookingForCard from 'components/cards/LookingForCard';
 import GreatDeals from 'components/GreatDeals';
+import REPORT_DATA from 'data/report';
 
 const AboutPage = () => {
 	return (
@@ -38,57 +41,29 @@ const AboutPage = () => {
 								<div className='section-title section-title-4 mb-60'>
 									<h5 className='bottom-line mb-25'>About Us</h5>
 									<h2 className='mb-20'>
-										The act or experience of one that learns a computer program
-										that makes learning fun
+										Our mission is to provide students with resources that make
+										even the most difficult topics easy to learn.{' '}
 									</h2>
 									<p className='mb-20'>
-										Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-										di nonumy eirmod tempor invidunt ut labore et dolore magn
-										aliq erat.
+										Across the globe, 617 million children are missing basic
+										math and reading skills. We are doing our best to deliver
+										the education they need.
 									</p>
-									<p>
-										Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-										di nonumy eirmod tempor invidunt ut labore et dolore magn
-										aliq erat.Lorem ipsum dolor sit amet, consetetur sadipscing
-										elitr, sed di nonumy.
-									</p>
+									<h5>Our goal is to:</h5>
+									<ul style={{ paddingLeft: '10px', marginTop: '5px' }}>
+										<li>- support school and home educators</li>
+										<li>- provide purpose-driven education</li>
+										<li>- captivate maths learners</li>
+										<li>- create moments that inspire learning</li>
+									</ul>
 								</div>
 							</div>
 						</div>
 					</div>
 					<div className='row pl-75 pr-75 pr-lg-0 pr-md-0 pr-xs-0 pl-lg-0 pl-md-0 pl-xs-0'>
-						<div className='col-lg-3 col-md-6 col-sm-6'>
-							<div className='counters text-center mb-30'>
-								<h2>
-									<span className='counter'>100</span>+
-								</h2>
-								<h5>Specialist Good Teachers</h5>
-							</div>
-						</div>
-						<div className='col-lg-3 col-md-6 col-sm-6'>
-							<div className='counters count-1 text-center mb-30'>
-								<h2>
-									<span className='counter'>1000</span>+
-								</h2>
-								<h5>Online Learning Courses</h5>
-							</div>
-						</div>
-						<div className='col-lg-3 col-md-6 col-sm-6'>
-							<div className='counters count-2 text-center mb-30'>
-								<h2>
-									<span className='counter'>13654</span>+
-								</h2>
-								<h5>Online &amp; Offline Students</h5>
-							</div>
-						</div>
-						<div className='col-lg-3 col-md-6 col-sm-6'>
-							<div className='counters count-3 text-center mb-30'>
-								<h2>
-									<span className='counter'>365</span>+
-								</h2>
-								<h5>Special Awards Winning</h5>
-							</div>
-						</div>
+						{REPORT_DATA?.map((item, index) => (
+							<InfoCard item={item} key={index} />
+						))}
 					</div>
 				</div>
 			</section>
@@ -109,41 +84,22 @@ const AboutPage = () => {
 							</div>
 						</div>
 						<div className='row'>
-							<div className='col-xl-6 col-lg-6 col-md-6'>
-								<div className='what-box text-center mb-3'>
-									<div className='what-box__icon mb-30'>
-										<img src='assets/img/icon/phone-operator.svg' alt='' />
-									</div>
-									<h3>Do you want to teach here?</h3>
-									<p>
-										Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-										di nonumy eirmod tempor invidunt ut labore et dolore magn
-										aliq erat.
-									</p>
-									<a href='contact.html' className='theme_btn border_btn'>
-										Register Now
-									</a>
-								</div>
-							</div>
-							<div className='col-xl-6 col-lg-6 col-md-6'>
-								<div className='what-box text-center mb-3'>
-									<div className='what-box__icon mb-30'>
-										<img src='assets/img/icon/graduate.svg' alt='' />
-									</div>
-									<h3>Do you want to learn here?</h3>
-									<p>
-										Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-										di nonumy eirmod tempor invidunt ut labore et dolore magn
-										aliq erat.
-									</p>
-									<a
-										href='contact.html'
-										className='theme_btn border_btn active'
-									>
-										Register Now
-									</a>
-								</div>
-							</div>
+							<LookingForCard
+								icon='assets/img/icon/phone-operator.svg'
+								title='Do you want to teach here?'
+								text='Millions of students lack opportunity to acquire basic math skills. Together, we can give it to them.'
+								buttonText='Register Now'
+								buttonStyle=''
+								link='/contact'
+							/>
+							<LookingForCard
+								icon='assets/img/icon/graduate.svg'
+								title='Do you want to learn here?'
+								text='Our clear, precise lessons give you the self-belief to conquer your next quiz or test with confidence.'
+								buttonText='Start Learning '
+								buttonStyle='active'
+								link='/'
+							/>
 						</div>
 					</div>
 				</section>

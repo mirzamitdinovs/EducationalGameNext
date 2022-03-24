@@ -1,4 +1,7 @@
+import GreatDealsCard from 'components/cards/GreateDeailsCard';
+import GREAT_DEALS_DATA from 'data/greateDeals';
 import { useEffect } from 'react';
+
 const GreatDeals = () => {
 	useEffect(() => {
 		$('.deal-active').owlCarousel({
@@ -38,68 +41,18 @@ const GreatDeals = () => {
 								<b>Great</b> Deals For You
 							</h2>
 							<p>
-								There are many variations of passa of Lorem Ipsum available, but
-								the majority have suffered.
+								We ensure every student has accurate information to build strong
+								fundamentals.
 							</p>
 						</div>
 					</div>
 					<div className='col-xl-8'>
 						<div className='deal-active owl-carousel mb-30'>
-							<div className='single-item'>
-								<div className='single-box mb-30'>
-									<div className='single-box__icon mb-25'>
-										<img src='assets/img/icon/puzzle.svg' alt='' />
-									</div>
-									<h4 className='sub-title mb-20'>Learn New Skills</h4>
-									<p>
-										There are many variations of pas of Lorm Ipsum available.
-									</p>
+							{GREAT_DEALS_DATA?.map((item, index) => (
+								<div key={index}>
+									<GreatDealsCard item={item} />
 								</div>
-							</div>
-							<div className='single-item'>
-								<div className='single-box s-box2 mb-30'>
-									<div className='single-box__icon mb-25'>
-										<img src='assets/img/icon/manager.svg' alt='' />
-									</div>
-									<h4 className='sub-title mb-20'>Expert Trainers</h4>
-									<p>
-										There are many variations of pas of Lorm Ipsum available.
-									</p>
-								</div>
-							</div>
-							<div className='single-item'>
-								<div className='single-box s-box3 mb-30'>
-									<div className='single-box__icon mb-25'>
-										<img src='assets/img/icon/notepad.svg' alt='' />
-									</div>
-									<h4 className='sub-title mb-20'>Free Trial Lesson</h4>
-									<p>
-										There are many variations of pas of Lorm Ipsum available.
-									</p>
-								</div>
-							</div>
-							<div className='single-item'>
-								<div className='single-box mb-30'>
-									<div className='single-box__icon mb-25'>
-										<img src='assets/img/icon/puzzle.svg' alt='' />
-									</div>
-									<h4 className='sub-title mb-20'>Learn New Skills</h4>
-									<p>
-										There are many variations of pas of Lorm Ipsum available.
-									</p>
-								</div>
-							</div>
-							<div className='single-item'>
-								<div className='single-box s-box2 mb-30'>
-									<div className='single-box__icon mb-25'>
-										<img src='assets/img/icon/manager.svg' alt='' />
-									</div>
-									<h4 className='sub-title mb-20'>Expert Trainers</h4>
-									<p>
-										There are many variations of pas of Lorm Ipsum available.
-									</p>
-								</div>
-							</div>
+							))}
 						</div>
 					</div>
 				</div>
