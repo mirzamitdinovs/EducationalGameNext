@@ -7,7 +7,7 @@ import REPORT_DATA from 'data/report';
 const AboutPage = () => {
 	return (
 		<div style={{ paddingTop: '130px' }}>
-			<Breadcrumb title='About' path='/about' />
+			<Breadcrumb title='About Us' path='/about' />
 			<GreatDeals />
 			<section className='about-us-area pt-150 pb-120 pt-md-100 pb-md-70 pt-xs-100 pb-xs-70'>
 				<div className='container'>
