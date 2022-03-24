@@ -156,7 +156,7 @@ const Navbar = () => {
 														role='button'
 														aria-expanded='false'
 													>
-														About
+														About Us
 													</a>
 												</Link>
 											</li>
@@ -178,7 +178,7 @@ const Navbar = () => {
 														role='button'
 														aria-expanded='false'
 													>
-														Contact
+														Contact Us
 													</a>
 												</Link>
 											</li>
