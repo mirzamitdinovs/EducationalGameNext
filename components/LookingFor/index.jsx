@@ -78,6 +78,7 @@ const LookingFor = () => {
 											href='https://www.mathsphere.co.uk/downloads/sample-worksheets/year-4-3-choose-methods.pdf'
 											download
 											target={'_blank'}
+											rel='noreferrer'
 										>
 											Science
 										</a>
