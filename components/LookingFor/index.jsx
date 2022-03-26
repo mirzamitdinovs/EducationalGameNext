@@ -74,9 +74,13 @@ const LookingFor = () => {
 										alt=''
 									/>
 									<h4 className='sub-title mb-10'>
-										<Link href='/courses/1'>
-											<a>Science</a>
-										</Link>
+										<a
+											href='https://www.mathsphere.co.uk/downloads/sample-worksheets/year-4-3-choose-methods.pdf'
+											download
+											target={'_blank'}
+										>
+											Science
+										</a>
 									</h4>
 									<p>126+ Courses Available</p>
 								</div>
