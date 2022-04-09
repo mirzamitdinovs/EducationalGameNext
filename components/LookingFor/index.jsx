@@ -1,3 +1,4 @@
+import SubjectCard from 'components/cards/SubjectCard';
 import Link from 'next/link';
 
 const LookingFor = () => {
@@ -63,40 +64,17 @@ const LookingFor = () => {
 							</div>
 						</div>
 						<div className='row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 row-cols-xl-5'>
-							<div className='col'>
-								<div
-									className='single-category text-center mb-30 wow fadeInUp2 animated'
-									data-wow-delay='.1s'
-								>
-									<img
-										className='mb-30'
-										src='assets/img/category-icon/atom.svg'
-										alt=''
-									/>
-									<h4 className='sub-title mb-10'>
-										<Link href='/curiculum'>
-											<a>Curiculum</a>
-										</Link>
-									</h4>
-								</div>
-							</div>
-							<div className='col'>
-								<div
-									className='single-category text-center mb-30 wow fadeInUp2 animated'
-									data-wow-delay='.2s'
-								>
-									<img
-										className='mb-30'
-										src='assets/img/category-icon/web-development.svg'
-										alt=''
-									/>
-									<h4 className='sub-title mb-10'>
-										<Link href='/courses/1'>
-											<a>Development</a>
-										</Link>
-									</h4>
-								</div>
-							</div>
+							<SubjectCard
+								icon='assets/img/category-icon/curiculum.png'
+								title='Curiculum'
+								link='/curiculum'
+							/>
+							<SubjectCard
+								icon='assets/img/category-icon/books.png'
+								title='Books'
+								link='/books'
+							/>
+
 							<div className='col'>
 								<div
 									className='single-category text-center mb-30 wow fadeInUp2 animated'
@@ -147,16 +125,6 @@ const LookingFor = () => {
 										</Link>
 									</h4>
 								</div>
-							</div>
-						</div>
-						<div className='row justify-content-center'>
-							<div
-								className='col-md-12 mt-20 text-center mb-20 wow fadeInUp2 animated'
-								data-wow-delay='.6s'
-							>
-								<Link href='/courses'>
-									<a className='theme_btn'>All Categories</a>
-								</Link>
 							</div>
 						</div>
 					</div>

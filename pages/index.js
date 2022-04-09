@@ -10,7 +10,7 @@ export default function Home() {
 			<Hero />
 			<GreatDeals />
 			<LookingFor />
-			<FeaturedCourses />
+			{/* <FeaturedCourses /> */}
 			<WhyUs />
 			{/*
 			<section className='blog-area mr-100 ml-100'>

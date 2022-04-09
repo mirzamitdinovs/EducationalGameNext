@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const CuriculumPage = () => {
 	return (
-		<div className='curiculum__container'>
+		<div className='curiculum__container page__container'>
 			<Breadcrumb title={'Curiculum'} />
 			<div className='container '>
 				<h1 className='curiculum__headers'>Aims</h1>

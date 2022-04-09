@@ -15,10 +15,13 @@ a {
 	box-sizing: border-box;
 }
 
+.page__container{
+	padding-top: 130px;
+}
+
 .curiculum__container{
 	line-height: 30px;
 	font-size: 18px;
-	padding-top: 130px;
 }
 
 .curiculum__headers{
