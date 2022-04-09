@@ -74,16 +74,10 @@ const LookingFor = () => {
 										alt=''
 									/>
 									<h4 className='sub-title mb-10'>
-										<a
-											href='https://www.mathsphere.co.uk/downloads/sample-worksheets/year-4-3-choose-methods.pdf'
-											download
-											target={'_blank'}
-											rel='noreferrer'
-										>
-											Science
-										</a>
+										<Link href='/curiculum'>
+											<a>Curiculum</a>
+										</Link>
 									</h4>
-									<p>126+ Courses Available</p>
 								</div>
 							</div>
 							<div className='col'>
@@ -101,7 +95,6 @@ const LookingFor = () => {
 											<a>Development</a>
 										</Link>
 									</h4>
-									<p>325+ Courses Available</p>
 								</div>
 							</div>
 							<div className='col'>
@@ -119,7 +112,6 @@ const LookingFor = () => {
 											<a>Science</a>
 										</Link>
 									</h4>
-									<p>95+ Courses Available</p>
 								</div>
 							</div>
 							<div className='col'>
@@ -137,7 +129,6 @@ const LookingFor = () => {
 											<a>Career</a>
 										</Link>
 									</h4>
-									<p>156+ Courses Available</p>
 								</div>
 							</div>
 							<div className='col'>
@@ -155,7 +146,6 @@ const LookingFor = () => {
 											<a>Arts &amp; Design</a>
 										</Link>
 									</h4>
-									<p>136+ Courses Available</p>
 								</div>
 							</div>
 						</div>

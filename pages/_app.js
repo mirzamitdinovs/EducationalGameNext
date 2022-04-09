@@ -499,6 +499,14 @@ function MyApp({ Component, pageProps }) {
 			<script src='assets/js/jquery.magnific-popup.min.js'></script>
 			<script src='assets/js/jquery.easypiechart.js'></script>
 			<script src='assets/js/plugins.js'></script>
+			<script
+				crossOrigin
+				src='https://unpkg.com/react@17/umd/react.development.js'
+			></script>
+			<script
+				crossOrigin
+				src='https://unpkg.com/react-dom@17/umd/react-dom.development.js'
+			></script>
 		</div>
 	);
 }
