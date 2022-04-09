@@ -4,9 +4,9 @@ import Link from 'next/link';
 
 const CuriculumPage = () => {
 	return (
-		<div className='curiculum__container page__container'>
+		<div className=' page__container'>
 			<Breadcrumb title={'Curiculum'} />
-			<div className='container '>
+			<div className='container curiculum__container'>
 				<h1 className='curiculum__headers'>Aims</h1>
 				<p>
 					The national curriculum for mathematics aims to ensure that all
@@ -132,10 +132,6 @@ const CuriculumPage = () => {
 					Pupils should read, spell and pronounce mathematical vocabulary
 					correctly.
 				</p>
-				<DownloadButton
-					title=' Download Curiculum for Stages 1 and 2:'
-					url='https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/335158/PRIMARY_national_curriculum_-_Mathematics_220714.pdf'
-				/>
 				<h3 className='curiculum__headers'>Subject Content: </h3>
 				<ul>
 					<li>Number – number and place value</li>
@@ -149,6 +145,10 @@ const CuriculumPage = () => {
 					<li>Geometry – position and direction</li>
 					<li>Statistics</li>
 				</ul>
+				<DownloadButton
+					title=' Download Curiculum for Stages 1 and 2:'
+					url='https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/335158/PRIMARY_national_curriculum_-_Mathematics_220714.pdf'
+				/>
 				<h1 className='curiculum__headers'>
 					What is expected to learn in Key Stage 3:{' '}
 				</h1>

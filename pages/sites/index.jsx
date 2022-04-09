@@ -6,7 +6,7 @@ const ExternalPages = () => {
 			style={{
 				margin: 0,
 				padding: 0,
-				height: '100vh',
+				minHeight: '100vh',
 				overflow: 'hidden',
 				overFloY: 'hidden',
 			}}
