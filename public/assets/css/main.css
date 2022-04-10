@@ -5031,8 +5031,8 @@ input.main-search-input:-ms-input-placeholder {
 }
 
 .learn-list {
-	overflow-y: scroll;
-	height: 440px;
+	/* overflow-y: scroll; */
+	/* height: 440px; */
 	margin-right: 20px;
 	/* Handle */
 }

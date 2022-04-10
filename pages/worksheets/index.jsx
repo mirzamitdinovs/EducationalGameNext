@@ -1,23 +1,14 @@
 import { useEffect } from 'react';
 import $ from 'jquery';
 const Worksheets = () => {
-	useEffect(() => {
-		if (window) {
-			frame.addEventListener('load', (ev) => {
-				const new_style_element = document.createElement('style');
-				new_style_element.textContent = 'body { background-color: white; }';
-				ev.target.contentDocument.head.appendChild(new_style_element);
-			});
-		}
-	});
 	return (
 		<div
 			style={{
 				margin: 0,
 				padding: 0,
-				minHeight: '100vh',
+				// minHeight: '100vh',
+				height: '100vh',
 				overflow: 'hidden',
-				overFloY: 'hidden',
 				backgroundColor: 'white !important',
 			}}
 		>
@@ -26,11 +17,12 @@ const Worksheets = () => {
 				src='http://mathsanswers.org.uk/gcse/'
 				width='100%'
 				style={{
-					// marginTop: '100px',
+					// paddingTop: '120px',
 					background: 'white !important',
 					border: 'none',
 					width: '100%',
-					height: 'calc(100% + 100px)',
+					height: '100vh',
+					// height: 'calc(100)',
 					position: 'absolute',
 				}}
 				// srcDoc='<footer><h1>Hello</h1></footer>'

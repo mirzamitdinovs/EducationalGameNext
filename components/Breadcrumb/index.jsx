@@ -1,10 +1,10 @@
 import Link from 'next/link';
 
-const Breadcrumb = ({ title, path }) => {
+const Breadcrumb = ({ title, path, subTitle }) => {
 	return (
 		<section
 			className='page-title-area d-flex align-items-end'
-			style={{ backgroundImage: 'url(assets/img/page-title-bg/01.jpg)' }}
+			style={{ backgroundImage: 'url(/assets/img/page-title-bg/01.jpg)' }}
 		>
 			<div className='container'>
 				<div className='row align-items-end'>
@@ -18,6 +18,13 @@ const Breadcrumb = ({ title, path }) => {
 											<a style={{ paddingRight: '5px' }}>Home /</a>
 										</Link>
 									</li>
+									{subTitle && (
+										<li>
+											<Link href={`${path}`}>
+												<a style={{ paddingRight: '5px' }}> {subTitle} / </a>
+											</Link>
+										</li>
+									)}
 									<li>
 										<Link href={`${path}`}>
 											<a> {title}</a>

@@ -74,58 +74,21 @@ const LookingFor = () => {
 								title='Books'
 								link='/books'
 							/>
-
-							<div className='col'>
-								<div
-									className='single-category text-center mb-30 wow fadeInUp2 animated'
-									data-wow-delay='.3s'
-								>
-									<img
-										className='mb-30'
-										src='assets/img/category-icon/atom.svg'
-										alt=''
-									/>
-									<h4 className='sub-title mb-10'>
-										<Link href='/courses/1'>
-											<a>Science</a>
-										</Link>
-									</h4>
-								</div>
-							</div>
-							<div className='col'>
-								<div
-									className='single-category text-center mb-30 wow fadeInUp2 animated'
-									data-wow-delay='.4s'
-								>
-									<img
-										className='mb-30'
-										src='assets/img/category-icon/career-path.svg'
-										alt=''
-									/>
-									<h4 className='sub-title mb-10'>
-										<Link href='/courses/1'>
-											<a>Career</a>
-										</Link>
-									</h4>
-								</div>
-							</div>
-							<div className='col'>
-								<div
-									className='single-category text-center mb-30 wow fadeInUp2 animated'
-									data-wow-delay='.5s'
-								>
-									<img
-										className='mb-30'
-										src='assets/img/category-icon/graphic-tool.svg'
-										alt=''
-									/>
-									<h4 className='sub-title mb-10'>
-										<Link href='/courses/1'>
-											<a>Arts &amp; Design</a>
-										</Link>
-									</h4>
-								</div>
-							</div>
+							<SubjectCard
+								icon='assets/img/category-icon/games.png'
+								title='Games'
+								link='/games'
+							/>
+							<SubjectCard
+								icon='assets/img/category-icon/worksheets.png'
+								title='Worksheets'
+								link='/worksheets'
+							/>
+							<SubjectCard
+								icon='assets/img/category-icon/videos.png'
+								title='Videos'
+								link='/videos'
+							/>
 						</div>
 					</div>
 				</div>
