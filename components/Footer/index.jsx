@@ -1,10 +1,12 @@
+import Link from 'next/link';
+
 const Footer = () => {
 	return (
 		<footer className='footer-area pt-70 pb-40'>
 			<div className='container'>
 				<div className='row mb-15'>
 					<div
-						className='col-xl-3 col-lg-4 col-md-6 wow fadeInUp2 animated'
+						className='col-xl-3 col-lg-3 col-md-6 wow fadeInUp2 animated'
 						data-wow-delay='.1s'
 					>
 						<div className='footer__widget mb-30'>
@@ -14,8 +16,8 @@ const Footer = () => {
 								</a>
 							</div>
 							<p>
-								Lorem ipsum dolor sit amet, consetetur sadip scing elitr, sed di
-								nonumy eirmod temporinvi dunt ut labore lorem ipsum.
+								Our mission is to provide students with resources that make even
+								the most difficult topics easy to learn.
 							</p>
 							<div className='social-media footer__social mt-30'>
 								<a href='#'>
@@ -34,29 +36,20 @@ const Footer = () => {
 						</div>
 					</div>
 					<div
-						className='col-xl-3 col-lg-4 col-md-6 wow fadeInUp2 animated'
+						className='col-xl-3 col-lg-3 col-md-6 wow fadeInUp2 animated'
 						data-wow-delay='.3s'
 					>
 						<div className='footer__widget mb-30 pl-40 pl-md-0 pl-xs-0'>
 							<h6 className='widget-title mb-35'>Contact us</h6>
 							<ul className='fot-list'>
 								<li>
-									<a href='#'>info@example.com</a>
+									<a href='#'>abdullaevsamandar2004@gmail.com</a>
 								</li>
 								<li>
-									<a href='#'>+00 235 695 58</a>
-								</li>
-								<li>
-									<a href='#'>Terms &amp; Conditions</a>
-								</li>
-								<li>
-									<a href='#'>Privacy Policy</a>
+									<a href='#'>+44 7729 598105</a>
 								</li>
 								<li>
 									<a href='contact.html'>Contacts</a>
-								</li>
-								<li>
-									<a href='#'>Our Careers</a>
 								</li>
 							</ul>
 						</div>
@@ -69,53 +62,26 @@ const Footer = () => {
 							<h6 className='widget-title mb-35'>Quick Links</h6>
 							<ul className='fot-list'>
 								<li>
-									<a href='about.html'>About US</a>
+									<Link href='/'>
+										<a>Home</a>
+									</Link>
 								</li>
 								<li>
-									<a href='#'>Explore Pages</a>
+									<Link href='/about'>
+										<a>About</a>
+									</Link>
 								</li>
 								<li>
-									<a href='#'>Our Services</a>
+									<Link href='/faq'>
+										<a>FAQ</a>
+									</Link>
 								</li>
 								<li>
-									<a href='#'>Destinations</a>
+									<Link href='/contact'>
+										<a>Contact</a>
+									</Link>
 								</li>
 							</ul>
-						</div>
-					</div>
-					<div
-						className='col-xl-3 col-lg-6 col-md-6 wow fadeInUp2 animated'
-						data-wow-delay='.7s'
-					>
-						<div className='footer__widget mb-30 pl-150 pl-lg-0 pl-md-0 pl-xs-0'>
-							<h6 className='widget-title mb-35'>Features</h6>
-							<ul className='fot-list mb-30'>
-								<li>
-									<a href='index-2.html'>Home Page</a>
-								</li>
-								<li>
-									<a href='#'>Testimonials</a>
-								</li>
-								<li>
-									<a href='blog.html'>Latest News</a>
-								</li>
-								<li>
-									<a href='#'>Help Center</a>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div className='copy-right-area border-bot pt-40'>
-				<div className='container'>
-					<div className='row align-items-center'>
-						<div className='col-lg-12'>
-							<div className='copyright text-center'>
-								<h5>
-									Copyright@ 2021 <a href='#'>Zoomy</a>. All Rights Reserved
-								</h5>
-							</div>
 						</div>
 					</div>
 				</div>

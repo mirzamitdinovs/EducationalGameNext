@@ -17,7 +17,7 @@ const GREAT_DEALS_DATA = [
 	{
 		title: 'Entertaining Games',
 		text: 'Sharpen your knowledge by playing your favourite games.',
-		icon: 'assets/img/icon/catalog.svg',
+		icon: 'assets/img/icon/games.svg',
 	},
 ];
 

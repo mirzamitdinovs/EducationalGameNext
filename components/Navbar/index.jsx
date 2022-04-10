@@ -41,76 +41,7 @@ const Navbar = () => {
 													aria-labelledby='navbarDropdown'
 												>
 													<li>
-														<Link href='/courses'>
-															<a>
-																<span>
-																	<img src='assets/img/icon/icon7.svg' alt='' />
-																</span>
-																Business
-															</a>
-														</Link>
-													</li>
-													<li>
-														<Link href='/courses'>
-															<a>
-																<span>
-																	<img src='assets/img/icon/icon8.svg' alt='' />
-																</span>
-																Technology
-															</a>
-														</Link>
-													</li>
-													<li>
-														<Link href='/courses'>
-															<a>
-																<span>
-																	<img src='assets/img/icon/icon9.svg' alt='' />
-																</span>
-																Development
-															</a>
-														</Link>
-													</li>
-													<li>
-														<Link href='/courses'>
-															<a>
-																<span>
-																	<img
-																		src='assets/img/icon/icon10.svg'
-																		alt=''
-																	/>
-																</span>
-																Photography
-															</a>
-														</Link>
-													</li>
-													<li>
-														<Link href='/courses'>
-															<a>
-																<span>
-																	<img
-																		src='assets/img/icon/icon11.svg'
-																		alt=''
-																	/>
-																</span>
-																Digital Marketing
-															</a>
-														</Link>
-													</li>
-													<li>
-														<Link href='/courses'>
-															<a>
-																<span>
-																	<img
-																		src='assets/img/icon/icon12.svg'
-																		alt=''
-																	/>
-																</span>
-																Programming
-															</a>
-														</Link>
-													</li>
-													<li>
-														<Link href='/courses'>
+														<Link href='/videos'>
 															<a>
 																<span>
 																	<img
@@ -118,12 +49,38 @@ const Navbar = () => {
 																		alt=''
 																	/>
 																</span>
-																Videograpgy
+																Videos
 															</a>
 														</Link>
 													</li>
 													<li>
-														<Link href='/courses'>
+														<Link href='/worksheets'>
+															<a>
+																<span>
+																	<img
+																		src='assets/img/icon/icon12.svg'
+																		alt=''
+																	/>
+																</span>
+																Worksheets
+															</a>
+														</Link>
+													</li>
+													<li>
+														<Link href='/curiculum'>
+															<a>
+																<span>
+																	<img
+																		src='assets/img/icon/icon11.svg'
+																		alt=''
+																	/>
+																</span>
+																Curiculum
+															</a>
+														</Link>
+													</li>
+													<li>
+														<Link href='/books'>
 															<a>
 																<span>
 																	<img
@@ -131,7 +88,17 @@ const Navbar = () => {
 																		alt=''
 																	/>
 																</span>
-																Illustration
+																Books
+															</a>
+														</Link>
+													</li>
+													<li>
+														<Link href='/games'>
+															<a>
+																<span>
+																	<img src='assets/img/icon/icon9.svg' alt='' />
+																</span>
+																Games
 															</a>
 														</Link>
 													</li>
@@ -179,17 +146,6 @@ const Navbar = () => {
 														aria-expanded='false'
 													>
 														Contact
-													</a>
-												</Link>
-											</li>
-											<li className='nav-item'>
-												<Link href='/sites'>
-													<a
-														className='nav-link'
-														role='button'
-														aria-expanded='false'
-													>
-														Games
 													</a>
 												</Link>
 											</li>

@@ -1,3 +1,4 @@
+import LookingForCard from 'components/cards/LookingForCard';
 import SubjectCard from 'components/cards/SubjectCard';
 import Link from 'next/link';
 
@@ -17,43 +18,23 @@ const LookingFor = () => {
 						</div>
 					</div>
 					<div className='row mb-85'>
-						<div className='col-xl-6 col-lg-6 col-md-6'>
-							<div
-								className='what-box text-center mb-35 wow fadeInUp2 animated'
-								data-wow-delay='.3s'
-							>
-								<div className='what-box__icon mb-30'>
-									<img src='assets/img/icon/phone-operator.svg' alt='' />
-								</div>
-								<h3>Do you want to teach here?</h3>
-								<p>
-									Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-									di nonumy eirmod tempor invidunt ut labore et dolore magn aliq
-									erat.
-								</p>
-								<Link href='/contact'>
-									<a className='theme_btn border_btn'>Register Now</a>
-								</Link>
-							</div>
-						</div>
-						<div className='col-xl-6 col-lg-6 col-md-6'>
-							<div
-								className='what-box text-center mb-35 wow fadeInUp2 animated'
-								data-wow-delay='.3s'
-							>
-								<div className='what-box__icon mb-30'>
-									<img src='assets/img/icon/graduate.svg' alt='' />
-								</div>
-								<h3>Do you want to learn here?</h3>
-								<p>
-									Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-									di nonumy eirmod tempor invidunt ut labore et dolore magn aliq
-									erat.
-								</p>
-								<Link href='/contact'>
-									<a className='theme_btn border_btn active'>Register Now</a>
-								</Link>
-							</div>
+						<div className='row'>
+							<LookingForCard
+								icon='assets/img/icon/phone-operator.svg'
+								title='Do you want to teach here?'
+								text='Millions of students lack opportunity to acquire basic math skills. Together, we can give it to them.'
+								buttonText='Register Now'
+								buttonStyle=''
+								link='/contact'
+							/>
+							<LookingForCard
+								icon='assets/img/icon/graduate.svg'
+								title='Do you want to learn here?'
+								text='Our clear, precise lessons give you the self-belief to conquer your next quiz or test with confidence.'
+								buttonText='Start Learning '
+								buttonStyle='active'
+								link='/'
+							/>
 						</div>
 					</div>
 					<div className='categoris-container'>

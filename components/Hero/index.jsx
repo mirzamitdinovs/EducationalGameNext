@@ -66,22 +66,21 @@ const Hero = () => {
 									className='main-title mb-40 wow fadeInUp2 animated'
 									data-wow-delay='.1s'
 								>
-									Learn Everyday &amp; Any New Skills Online with Top
+									Learn Mathematics Online with Top
 									<span className='vec-shape'>Instructors.</span>
 								</h1>
 								<h5
 									className='mb-35 wow fadeInUp2 animated'
 									data-wow-delay='.2s'
 								>
-									There are many variations of passages of Lorem Ipsum
-									available, but the majority have suffered alteration in some
-									form.
+									Our mission is to provide students with resources that make
+									even the most difficult topics easy to learn.
 								</h5>
 
-								<p className='highlight-text'>
+								{/* <p className='highlight-text'>
 									<span>#1</span> Worldwide Online Learning &amp; Skills
 									Development Platform
-								</p>
+								</p> */}
 							</div>
 						</div>
 					</div>
