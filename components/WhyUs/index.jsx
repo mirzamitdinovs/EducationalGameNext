@@ -72,7 +72,7 @@ const WhyUs = () => {
 										<h5 className='bottom-line mb-25'>Explore AllMaths</h5>
 										<h2 className='mb-25'>Help Your Child</h2>
 										<p>
-											You don't need to be an expert to support your child with
+											You do not need to be an expert to support your child with
 											maths! Here are simple but effective ways to help your
 											child develop their understanding of mathematics:
 										</p>
