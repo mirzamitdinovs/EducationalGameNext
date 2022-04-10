@@ -54,8 +54,8 @@ const Navbar = () => {
 														</Link>
 													</li>
 													<li>
-														<Link href='/worksheets'>
-															<a>
+														<Link href='https://uk.ixl.com/?partner=google&campaign=57501665&adGroup=2207177705&gclid=EAIaIQobChMIzIWVnIi89gIV9VekBB3PDQcmEAEYASAAEgKCNvD_BwE'>
+															<a target={'_blank'} rel='noopener noreferrer'>
 																<span>
 																	<img
 																		src='assets/img/icon/icon12.svg'

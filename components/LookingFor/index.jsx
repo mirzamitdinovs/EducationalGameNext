@@ -50,11 +50,35 @@ const LookingFor = () => {
 								title='Videos'
 								link='/videos'
 							/>
-							<SubjectCard
+							{/* <SubjectCard
 								icon='assets/img/category-icon/worksheets.png'
 								title='Worksheets'
-								link='/worksheets'
-							/>
+								link='https://uk.ixl.com/?partner=google&campaign=57501665&adGroup=2207177705&gclid=EAIaIQobChMIzIWVnIi89gIV9VekBB3PDQcmEAEYASAAEgKCNvD_BwE'
+							/> */}
+							<div className='col'>
+								<div
+									className='single-category text-center mb-30 wow fadeInUp2 animated'
+									data-wow-delay='.1s'
+								>
+									<img
+										style={{
+											width: '80px',
+											height: '80px',
+											objectFit: 'contain',
+										}}
+										className='mb-30'
+										src={'assets/img/category-icon/worksheets.png'}
+										alt=''
+									/>
+									<h4 className='sub-title mb-10'>
+										<Link href='https://uk.ixl.com/?partner=google&campaign=57501665&adGroup=2207177705&gclid=EAIaIQobChMIzIWVnIi89gIV9VekBB3PDQcmEAEYASAAEgKCNvD_BwE'>
+											<a target={'_blank'} rel='noopener noreferrer'>
+												{'Worksheets'}
+											</a>
+										</Link>
+									</h4>
+								</div>
+							</div>
 							<SubjectCard
 								icon='assets/img/category-icon/curiculum.png'
 								title='Curiculum'
