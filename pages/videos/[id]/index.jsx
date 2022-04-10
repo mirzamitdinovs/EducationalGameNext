@@ -2,12 +2,10 @@ import Breadcrumb from 'components/Breadcrumb';
 import VideoCard from 'components/cards/VideoCard';
 import Loader from 'components/Loader';
 import PlayList from 'components/PlayList';
-import VideoDetails from 'components/VideoDetails';
 import YoutubePlayer from 'components/YoutubePlayer';
 import { VIDEOS_DATA } from 'data/videos';
 import { useRouter } from 'next/router';
 import { useState, useEffect } from 'react';
-import ReactPlayer from 'react-player';
 const VideoPage = () => {
 	const [loading, setLoading] = useState(true);
 	const [video, setVideo] = useState(null);
