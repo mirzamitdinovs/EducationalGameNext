@@ -7,7 +7,7 @@ const ContactPage = () => {
 				paddingTop: '130px',
 			}}
 		>
-			<Breadcrumb title='Contact Us' path='/contact' />
+			<Breadcrumb title='Contact' path='/contact' />
 
 			<section className='contact-us-area pt-150 pb-120 pt-md-100 pt-xs-100 pb-md-70 pb-xs-70'>
 				<div className='container'>

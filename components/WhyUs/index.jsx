@@ -81,13 +81,9 @@ const WhyUs = () => {
 										className='text-list mb-40 wow fadeInUp2 animated'
 										data-wow-delay='.2s'
 									>
-										<li>
-											Use real objects to develop early understanding (Explore
-											practically)
-										</li>
+										<li>Use real objects to develop early understanding</li>
 										<li>
 											Ask your child to explain each stage of their solution
-											(Explain different methods)
 										</li>
 										<li>Practice mathematics playing our games</li>
 									</ul>

@@ -67,7 +67,10 @@ const Hero = () => {
 									data-wow-delay='.1s'
 								>
 									Learn Mathematics Online with Top
-									<span className='vec-shape'>Instructors.</span>
+									<span className='vec-shape' style={{ marginLeft: '5px' }}>
+										{' '}
+										Instructors.
+									</span>
 								</h1>
 								<h5
 									className='mb-35 wow fadeInUp2 animated'

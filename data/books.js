@@ -44,7 +44,7 @@ export const BOOKS_DATA = [
 						title: 'KS1 Maths SATs Study Book',
 						url: 'https://www.dropbox.com/s/9r3xn3nu5eonwhv/KS1_Maths_SATs_Study_Book.pdf?dl=0',
 						image:
-							'https://cdn.shopify.com/s/files/1/2473/3068/products/x500_ed36c3f9-2f5d-4c82-b2c1-7a299390a218.jpg?v=1648389686',
+							'https://images-na.ssl-images-amazon.com/images/I/81lzm3p5hoL.jpg',
 					},
 					{
 						title: 'Maths -- No Problem! Multiplication and Division',

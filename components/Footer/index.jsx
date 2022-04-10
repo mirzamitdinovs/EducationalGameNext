@@ -11,9 +11,11 @@ const Footer = () => {
 					>
 						<div className='footer__widget mb-30'>
 							<div className='footer-log mb-20'>
-								<a href='index-2.html' className='logo'>
-									<img src='assets/img/logo/header_logo_one.svg' alt='' />
-								</a>
+								<Link href='/'>
+									<a className='logo'>
+										<img src='/assets/img/logo/header_logo_two.png' alt='' />
+									</a>
+								</Link>
 							</div>
 							<p>
 								Our mission is to provide students with resources that make even
@@ -43,13 +45,13 @@ const Footer = () => {
 							<h6 className='widget-title mb-35'>Contact us</h6>
 							<ul className='fot-list'>
 								<li>
-									<a href='#'>abdullaevsamandar2004@gmail.com</a>
+									<a>abdullaevsamandar2004@gmail.com</a>
 								</li>
 								<li>
-									<a href='#'>+44 7729 598105</a>
+									<a>+44 7729 598105</a>
 								</li>
 								<li>
-									<a href='contact.html'>Contacts</a>
+									<a>Roberts Way, Hatfield, Hertfordshire, AL10 9UX, UK</a>
 								</li>
 							</ul>
 						</div>

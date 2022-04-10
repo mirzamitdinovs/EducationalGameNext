@@ -3,8 +3,18 @@ import InfoCard from 'components/cards/InfoCard';
 import LookingForCard from 'components/cards/LookingForCard';
 import GreatDeals from 'components/GreatDeals';
 import REPORT_DATA from 'data/report';
-
+import $ from 'jquery';
+import { useEffect } from 'react';
 const AboutPage = () => {
+	useEffect(() => {
+		(function ($) {
+			//counter
+			$('.counter').counterUp({
+				delay: 10,
+				time: 3000,
+			});
+		})(jQuery);
+	});
 	return (
 		<div style={{ paddingTop: '130px' }}>
 			<Breadcrumb title='About' path='/about' />

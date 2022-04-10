@@ -41,10 +41,20 @@ const LookingFor = () => {
 						<div className='col-xl-12'>
 							<div className='section-title text-center mb-55'>
 								<h5 className='bottom-line mb-25'>Browse Categories</h5>
-								<h2>Explore our Online Subjects</h2>
+								<h2>Explore our Online Materials</h2>
 							</div>
 						</div>
 						<div className='row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 row-cols-xl-5'>
+							<SubjectCard
+								icon='assets/img/category-icon/videos.png'
+								title='Videos'
+								link='/videos'
+							/>
+							<SubjectCard
+								icon='assets/img/category-icon/worksheets.png'
+								title='Worksheets'
+								link='/worksheets'
+							/>
 							<SubjectCard
 								icon='assets/img/category-icon/curiculum.png'
 								title='Curiculum'
@@ -59,16 +69,6 @@ const LookingFor = () => {
 								icon='assets/img/category-icon/games.png'
 								title='Games'
 								link='/games'
-							/>
-							<SubjectCard
-								icon='assets/img/category-icon/worksheets.png'
-								title='Worksheets'
-								link='/worksheets'
-							/>
-							<SubjectCard
-								icon='assets/img/category-icon/videos.png'
-								title='Videos'
-								link='/videos'
 							/>
 						</div>
 					</div>

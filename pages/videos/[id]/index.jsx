@@ -78,7 +78,7 @@ const VideoPage = () => {
 			{/* feature-course start */}
 			<section className='feature-course pb-130 pt-md-95 pb-md-80 pt-xs-95 pb-xs-80'>
 				<div className='container'>
-					<h2 className='courses-title mb-35'>Recent Courses</h2>
+					<h2 className='courses-title mb-35'>Related Topics</h2>
 					<div className='row'>
 						{VIDEOS_DATA?.filter((item) => item.id !== Number(id))
 							.slice(0, 3)

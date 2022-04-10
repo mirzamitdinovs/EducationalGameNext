@@ -6,7 +6,7 @@ const BookCard = ({ title, image, url }) => {
 					<img
 						style={{
 							height: '250px',
-							objectFit: 'contain',
+							objectFit: 'cover',
 						}}
 						className='img-fluid'
 						src={image}

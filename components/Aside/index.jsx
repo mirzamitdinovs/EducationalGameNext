@@ -12,7 +12,7 @@ const Aside = () => {
 			<div className='offset-sidebar'>
 				<div className='offset-widget offset-logo mb-30'>
 					<a href='index-2.html'>
-						<img src='assets/img/logo/header_logo_one.svg' alt='logo' />
+						<img src='/assets/img/logo/header_logo_two.png' alt='logo' />
 					</a>
 				</div>
 				<div className='offset-widget mb-40'>
