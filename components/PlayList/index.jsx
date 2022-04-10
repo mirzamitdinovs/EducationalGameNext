@@ -7,6 +7,7 @@ const PlayList = ({ data, current, setSelectedVideo }) => {
 					<ul className='learn-list'>
 						{data?.map((item, index) => (
 							<li
+								key={index}
 								onClick={() => setSelectedVideo(item)}
 								style={{
 									cursor: 'pointer',
